@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 775 . 
+chown -hR vincent:staff . 
