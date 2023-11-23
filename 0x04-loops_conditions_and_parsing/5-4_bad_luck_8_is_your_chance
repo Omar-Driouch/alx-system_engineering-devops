@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-
-#displays bad luck for the 4th loop iteration
-#displays good luck for the 8th loop iteration
-#displays Best School for the other iterations
+#print "Best School" in all iterations
+#except:
+#Iteration 4: prints `bad luck`
+#Iteration 8: prints `good luck`
 
 count=1
+
 while [ $count -le 10 ]
 do
     if [ $count -eq 4 ]
@@ -16,5 +17,5 @@ do
     else
         echo "Best School"
     fi
-    count=$(( $count + 1 ))
+    (( count++ ))
 done
