@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-#Best School 10 times, but for the 9th iteration,
-#displays Best School and then Hi on a new
-
+#displays `Best School` 10 times, prints `hi` after the 9th iteration
 
 count=0
 
@@ -12,5 +10,5 @@ then
 	echo "Hi"
 fi
 	echo "Best School"
-count=$(( $count + 1 ))
+(( count++ ))
 done
