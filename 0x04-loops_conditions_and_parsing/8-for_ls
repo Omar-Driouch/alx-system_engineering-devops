@@ -2,7 +2,6 @@
 # Bash script that displays:
 #The content of the current directory
 
-
 for file in *; do
     if [[ -f $file && ! $file == .* ]]; then
         echo ${file#*-}
