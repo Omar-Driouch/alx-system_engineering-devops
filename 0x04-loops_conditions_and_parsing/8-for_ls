@@ -3,8 +3,7 @@
 #The content of the current directory
 
 
-for file in *; do
-    if [[ -f $file && ! $file == .* ]]; then
-        echo ${file#*-}
-    fi
+list=$(ls)
+for i in $list; do
+  echo "$i" | cut -d '-' -f2
 done
