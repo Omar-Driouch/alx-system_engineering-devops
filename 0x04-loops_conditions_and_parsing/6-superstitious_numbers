@@ -5,23 +5,24 @@
 #Iteration 9: prints `bad luck from Japan`
 #Iteration 17 : prints `bad luck from Italy`
 
-count=0
+count=1
 
-while [ $count -le 20 ]
-do
+while [ $count -le 20 ]; do
     case $count in
-        4	)
+        4)	echo $count
             echo "bad luck from China"
             ;;
-        9)
+        9)	echo $count
             echo "bad luck from Japan"
             ;;
         17)
+			echo $count
             echo "bad luck from Italy"
             ;;
         *)
             echo $count
+          
             ;;
     esac
-    (( count++ ))
+    ((count++))
 done
