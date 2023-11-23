@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Displays "Best School" 10 times using a for loop.
+#prints a string `Best School` 10 times
 
-for i in $(seq 10); do
-    echo "Best School"
+for ((i = 1; i <= 10; i++)); do
+echo "Best School"
 done
