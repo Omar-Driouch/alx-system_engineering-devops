@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-
-
-
+# This code counts from 0 to 9 and prints "Hi" when the count is 9
 
 count=0
 
