@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-#displays `Best School` 10 times, prints `hi` after the 9th iteration
+
+
+
 
 count=0
 
