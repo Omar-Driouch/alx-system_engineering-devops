@@ -1,17 +1,27 @@
 #!/usr/bin/env bash
-#Bash script that displays the time for 12 hours and 59 minutes:
-#display hours from 0 to 12`
-#display minutes from 1 to 59
+#print "Best School" in all iterations
+#except:
+#Iteration 4: prints `bad luck from China`
+#Iteration 9: prints `bad luck from Japan`
+#Iteration 17 : prints `bad luck from Italy`
 
-hour=0
+count=0
 
-while [ $hour -le 12 ]; do
-	minute=0
-	echo "Hour: $hour"
-	while [ $minute -le 59 ]; do
-			echo $minute
-	    ((minute++))
-	done	
-   
-    ((hour++))
+while [ $count -le 20 ]
+do
+    case $count in
+        4	)
+            echo "bad luck from China"
+            ;;
+        9)
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "bad luck from Italy"
+            ;;
+        *)
+            echo $count
+            ;;
+    esac
+    (( count++ ))
 done
