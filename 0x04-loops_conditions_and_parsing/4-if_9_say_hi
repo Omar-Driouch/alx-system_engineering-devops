@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Best School 10 times, but for the 9th iteration, 
+#Best School 10 times, but for the 9th iteration,
 #displays Best School and then Hi on a new
 
 count=1
