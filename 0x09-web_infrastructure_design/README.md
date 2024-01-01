@@ -9,9 +9,10 @@ This project contains links to diagrams representing different web infrastructur
 
 This section includes links to diagrams illustrating various web infrastructures. Each diagram provides a high-level overview of the organization and components of the respective web infrastructure.
 
-- [Web Infrastructure 1](https://drive.google.com/file/d/1YDulaxjOd3i6YwQRXSng2rvbVDL6sWBg/view?usp=sharing)
-- [Web Infrastructure 2](https://drive.google.com/file/d/1YDulaxjOd3i6YwQRXSng2rvbVDL6sWBg/view?usp=sharing)
-- [Web Infrastructure 3](https://drive.google.com/file/d/1YDulaxjOd3i6YwQRXSng2rvbVDL6sWBg/view?usp=sharing)
+- [0-simple_web_stack](https://drive.google.com/file/d/1YDulaxjOd3i6YwQRXSng2rvbVDL6sWBg/view?usp=sharing)
+- [1-distributed_web_infrastructure](https://drive.google.com/file/d/1QE49tE4_XVdqknjSYl6Oybz_NYL3mtru/view?usp=sharing)
+- [2-secured_and_monitored_web_infrastructure](https://drive.google.com/file/d/1l1q0oFso-vQh4dsy5Oq4J91oSfz8VPGn/view?usp=sharing)
+- [3-scale_up](https://drive.google.com/file/d/18Zi5yQC7rlNGs_KT8aylpfBcou_L0DTK/view?usp=sharing)
 
 Feel free to add more links and descriptions as you expand the collection of web infrastructure diagrams.
 
