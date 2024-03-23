@@ -4,8 +4,6 @@ import requests
 
 
 def number_of_subscribers(subreddit):
-    if(subreddit == None):
-        return 
     """Return the total number of subscribers on a given subreddit."""
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {
@@ -16,4 +14,3 @@ def number_of_subscribers(subreddit):
         return 0
     results = response.json().get("data")
     return results.get("subscribers")
-    
